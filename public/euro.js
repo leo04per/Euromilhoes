@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
 
     function getNewBet() {
-        fetch('http://localhost:3001/euro')
+        fetch('https://euromilhoes-42e1.onrender.com/euro')
             .then((response) => response.json())
             .then (bet => {
                 //debugger;
